@@ -1,7 +1,7 @@
 
-public class test {
+public class helloworld {
     public static void main(String[] args) {
-        String x = "Test";
+        String x = "Hello World";
         System.out.println(x);
     }
 }
