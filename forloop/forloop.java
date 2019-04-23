@@ -9,8 +9,8 @@ public class forloop {
     public static int factorial(int n){
         int results = 1;
         for (int i = 2; i <= n; i++){
-            result *= i;
+            results *= i;
         }
-        return result;
+        return results;
     }
 }
