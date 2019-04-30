@@ -2,7 +2,8 @@ public class operators {
     public static void main(String[] args){
 
 
-        //arithmetic: +, -, *, /, %
+        //Arithmetic operators
+        //  +, -, *, /, %
         // a = 10; b = 10; c = a + b = 20;
         // int num1 = 100;
         // int num2 = 20;
@@ -38,12 +39,20 @@ public class operators {
 
         //Relational operators
         // =, ==, ===, >, <, >=, <=, <==, >==,
-        int num1 = 10;
-        int num2 = 50;
-        if (num1 == num2){
-            System.out.println("num1 & num2 are equal");
-        } else{
-            System.out.println("num1 & num2 are not equal");
-        }
+        // int num1 = 10;
+        // int num2 = 50;
+        // if (num1 == num2){
+        //     System.out.println("num1 & num2 are equal");
+        // } else{
+        //     System.out.println("num1 & num2 are not equal");
+        // }
+
+
+        //Bitwise operators
+        int num1 = 11;
+        int num2 = 22;
+        int result = 0;
+        result = num1 & num2;
+        System.out.println("num1 & num2 " + +result);
     }
 }
