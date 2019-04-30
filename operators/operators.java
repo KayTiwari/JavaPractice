@@ -29,9 +29,21 @@ public class operators {
 
 
         //Logical operators
-        boolean b1 = true;
-        boolean b2 = false;
-        System.out.println(b1 && b2);
-        System.out.println(b1 || b2);
+        // && = and // || = or
+        // boolean b1 = true;
+        // boolean b2 = false;
+        // System.out.println(b1 && b2);
+        // System.out.println(b1 || b2);
+
+
+        //Relational operators
+        // =, ==, ===, >, <, >=, <=, <==, >==,
+        int num1 = 10;
+        int num2 = 50;
+        if (num1 == num2){
+            System.out.println("num1 & num2 are equal");
+        } else{
+            System.out.println("num1 & num2 are not equal");
+        }
     }
 }
