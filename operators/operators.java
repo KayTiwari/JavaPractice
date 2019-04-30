@@ -53,6 +53,12 @@ public class operators {
         int num2 = 22;
         int result = 0;
         result = num1 & num2;
+        result2 = num1 | num2;
+        result3 = num1 ^ num2;
+        result4 = num1;
+        result5 = num1 << num2;
+        result5 = num1 >> num2;
+        result5 = num1 >>> num2;
         System.out.println("num1 & num2 " + +result);
     }
 }
