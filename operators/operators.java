@@ -49,16 +49,26 @@ public class operators {
 
 
         //Bitwise operators
-        int num1 = 11;
-        int num2 = 22;
-        int result = 0;
-        result = num1 & num2;
-        result2 = num1 | num2;
-        result3 = num1 ^ num2;
-        result4 = num1;
-        result5 = num1 << num2;
-        result5 = num1 >> num2;
-        result5 = num1 >>> num2;
-        System.out.println("num1 & num2 " + +result);
+        // int num1 = 11;
+        // int num2 = 22;
+        // int result = 0;
+        // result = num1 & num2;
+        // result2 = num1 | num2;
+        // result3 = num1 ^ num2;
+        // result4 = num1;
+        // result5 = num1 << num2;
+        // result5 = num1 >> num2;
+        // result5 = num1 >>> num2;
+        // System.out.println("num1 & num2 " + +result);
+
+
+        //Ternary operators
+        int num1 , num2;
+        num1 = 25;
+        num2 = (num1 == 10) ? 100 : 200;
+        System.out.println(num2);
+
+        num2 = (num1 == 25) ? 100: 200;
+        System.out.println(num2);
     }
 }
